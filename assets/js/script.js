@@ -15,3 +15,11 @@ const currentCard = document.getElementById("previousCard");
 const nextCard = document.getElementById("nextCard");
 const buttons = document.getElementsByClassName("btn");
 const score = document.getElementById("score")
+
+let next_card = deck[Math.floor(Math.random() * deck.length)];
+let streak = 0;
+console.log(next_card);
+
+nextCard.innerText = next_card;
+
+
