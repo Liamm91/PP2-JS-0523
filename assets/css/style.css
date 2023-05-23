@@ -1,14 +1,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
 
+div {
+    border: 1px solid red;
+}
+body {
+   background: rgb(17, 184, 175);
+}
+
 .heading {
+    border: 3px solid red;
     text-align: center;
-    font-size: 300%;
+    font-size: 200%;
     font-family: Carter One, arial, sans serif;
+    font
 
 }
 
 .logo {
-    height: 250px;
+    height: 200px;
     margin-left: 33%;
     margin-right: 33%;
+}
+
+.name {
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: center;
+    margin-bottom: 3%;
+}
+.game-area {
+    
+    height: 500px;
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 3px solid red;
+}
+
+.btn-up {
+    height: 20%;
+    width: 20%;
+    text-align: center;
 }
