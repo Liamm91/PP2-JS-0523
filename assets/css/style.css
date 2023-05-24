@@ -36,8 +36,29 @@ body {
     border: 3px solid red;
 }
 
-.btn-up {
-    height: 20%;
+#cardDeck {
+    margin: 5%;
     width: 20%;
-    text-align: center;
+    height: 300px;
+    display: inline-block;
+    float: left;
+
+}
+
+#nextCard {
+    margin: 5%;
+    width: 20%;
+    height: 300px;
+    display: inline-block;
+    float: left;
+
+}
+
+#previousCard {
+    margin: 5%;
+    width: 20%;
+    height: 300px;
+    display: inline-block;
+    float: left;
+
 }
