@@ -18,15 +18,19 @@
     <input class="name" type="text">
 </div>
     <div class="game-area">
-        <div id="cardDeck"></div>
-        <div id="previousCard"></div>
-        <div id="nextCard"></div>
-            <button class="btn btn-higher">Higher
-            </button>
-            <button class="btn btn-lower">Lower
-            </button>
+    <div id="lastCard"></div>
+    <div id="nextCard"></div>
+    <div>
+        <button class="btn btn-higher" data-value="higher"><p>Higher</p>
+        </button>
     </div>
-    <div class="score-area">
+    <div>
+        <button class="btn btn-lower" data-value="lower"><p>Lower</p>
+        </button>
+    </div>
+    </div>
+    <div class="score-area"></div>
+    <h3 class="result clear" id="result">Correct!</h3>
         <p>Streak<span id="score"> 0 </span></p>              
     </div>
    <script src="assets/js/script.js"></script> 

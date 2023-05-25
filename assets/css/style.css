@@ -1,14 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
 
-div {
-    border: 1px solid red;
-}
+
 body {
    background: rgb(17, 184, 175);
 }
 
 .heading {
-    border: 3px solid red;
+
     text-align: center;
     font-size: 200%;
     font-family: Carter One, arial, sans serif;
@@ -30,35 +28,41 @@ body {
 }
 .game-area {
     
-    height: 500px;
-    margin-left: 10%;
-    margin-right: 10%;
-    border: 3px solid red;
+    
+    margin: 10%;
+    border: 10px double red;
+   
 }
 
-#cardDeck {
-    margin: 5%;
-    width: 20%;
+
+
+#lastCard {
+    margin-left: 10%;
+    margin-right: 10%;
+    min-width: 15%;
     height: 300px;
-    display: inline-block;
-    float: left;
+    background: url(https://blog.betvictor.com/campaigns/the-art-of-playing-cards/assets/img/og_card_5@2x.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-table;
 
 }
 
 #nextCard {
-    margin: 5%;
-    width: 20%;
+   
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 15%;
     height: 300px;
-    display: inline-block;
-    float: left;
+    background: url(https://blog.betvictor.com/campaigns/the-art-of-playing-cards/assets/img/og_card_5@2x.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-table;
 
 }
 
-#previousCard {
-    margin: 5%;
-    width: 20%;
-    height: 300px;
-    display: inline-block;
-    float: left;
-
+.btn {
+    
+    padding: 2%;
+    margin-left: 35%;
 }
